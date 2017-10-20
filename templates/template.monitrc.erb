@@ -1,0 +1,5 @@
+check process <%= @process_name %>
+  with pidfile "<%= @pid_file %>"
+  start program = "<%= @start_program %>"
+  stop program = "<%= @stop_program %>"
+  group "<%= @group %>"
